@@ -27,7 +27,9 @@
   
   3. 开始训练
   终端进入到yolo v5文件夹下，使用yolo v5s权重进行训练  
+    
   python train.py --img 640 --batch 16 --epochs 30 --data ./data/fire.yaml --cfg ./models/fire_detect_yolov5s.yaml --weights ./weights/yolov5s.pt  
+    
   训练结束的模型权重以及训练结果都保存在runs/train目录下
   v![image](https://user-images.githubusercontent.com/67082200/138064537-ed484fd0-e170-4d72-aeb4-7bb31cdc7618.png)
   
