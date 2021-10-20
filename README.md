@@ -17,7 +17,9 @@
   其他环境依赖参考requirement.txt  
 
 二、数据集
-  数据集为网上收集到的火焰检测数据，经转化为yolo v5适配的txt格式，放在coco目录下,组织文件结构如下：
+  数据集为网上收集到的火焰检测数据，  
+  链接: https://pan.baidu.com/s/1QizpbW1-Ec_GmzP2IaW7Zg  密码: hkv4  
+  经转化为yolo v5适配的txt格式，放在coco目录下,组织文件结构如下：  
 ![2021-10-20_17-24](https://user-images.githubusercontent.com/67082200/138066628-77f010b2-0615-4774-a832-b0366951c976.png)
 
 三、模型训练
