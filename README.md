@@ -1,7 +1,10 @@
 # yolo-v5-fire-detection-for-video  
   
   此项目为通过yolo v5训练模型实现视频火焰检测，包括对本地视频以及摄像头读取到的实时视频流中的火焰将进行检测。  
-  主要内容包括yolo v5环境搭建、数据集的收集、模型训练以及调用模型实现检测。
+  主要内容包括yolo v5环境搭建、数据集的收集、模型训练以及调用模型实现检测。  
+  参考博客：  
+  https://blog.csdn.net/qq_45646174/article/details/112913012?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4.no_search_link  
+  https://blog.csdn.net/weixin_41010198/article/details/106785253#t36  
 
 一、 环境搭建  
   操作系统：Ubuntu20.04  
