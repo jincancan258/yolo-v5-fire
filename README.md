@@ -21,8 +21,8 @@
   本次项目对模型精度要求不高而对检测速度要求较高，因此选择较小的yolo v5s模型进行训练。预训练模型yolo v5s.pt已下载好，放在weight目录下。
 
   2. 修改配置文件
-  进入yolov5/data目录下，修改coco128.yaml文件内容。建议复制一份coco128.yaml，然后更名为fire_detection.yaml，修改内容如下：声明train和val文件的路径，类别数nc以及类别名names（由于检测目标只有火焰一类，所以类别数为1，名称为fire）
-![image](https://user-images.githubusercontent.com/67082200/138062732-af6c9771-4272-484c-8cb3-18b6c58f8079.png)
+  进入yolov5/data目录下，修改coco128.yaml文件内容。建议复制一份coco128.yaml，然后更名为fire_detection.yaml，修改内容如下：声明train和val文件的路径，类别数nc以及类别名names（由于检测目标只有火焰一类，所以类别数为1，名称为fire）  
+![image](https://user-images.githubusercontent.com/67082200/138062732-af6c9771-4272-484c-8cb3-18b6c58f8079.png)  
   进入yolov5/models目录下，修改yolov5s.yaml文件内容。这里，我们可以先复制一份yolov5s.yaml，然后更名为fire_yolov5s.yaml，只需要修改类别数nc:1
   
   3. 开始训练
